@@ -1,0 +1,25 @@
+<div class="gallery">
+  <gallery-menu 
+    *ngIf="gallery" 
+    [previous]="gallery.previous" 
+    [current]="gallery"
+    [next]="gallery.next">
+  </gallery-menu>
+  <div class="gallery-content">
+    <ul 
+      *ngIf="gallery && gallery.images"
+      class="gallery-images">
+      <ng-container 
+        *ngFor="let galleryImage of gallery.images">
+        <br *ngIf="galleryImage.newRow" />
+        <li class="gallery-image">
+          <a 
+            class="thumbnail"
+            [routerLink] = "'./'+galleryImage.name">
+            <img alt="{{galleryImage.description}}" [src]="gallery.directory + '/' + galleryImage.thumbnail" />
+          </a>
+        </li>
+      </ng-container>
+    </ul>
+  </div>
+</div>

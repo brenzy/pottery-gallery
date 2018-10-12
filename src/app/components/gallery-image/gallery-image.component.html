@@ -1,0 +1,16 @@
+<div class="gallery-image">
+  <div *ngIf="gallery" class="gallery-menu">
+    <a *ngIf="imageDetails" class="chevron chevron-prev" [routerLink]="['/'+gallery.name+'/'+imageDetails.previous.name]">
+      &lt;Previous
+    </a>
+    <a class="gallery-name" [routerLink]="['/'+gallery.name]">
+      {{gallery.description}}
+    </a>
+    <a *ngIf="imageDetails" class="chevron chevron-next" [routerLink]="['/'+gallery.name+'/'+imageDetails.next.name]">
+      Next&gt;
+    </a>
+  </div>
+  <a *ngIf="imageDetails" [routerLink]="['/'+gallery.name+'/'+imageDetails.next.name]">
+    <img class="detail-image" alt="imageDetails.shortDescriptions" [src]="gallery.directory + '/' + imageDetails.image">
+  </a>
+</div>

@@ -1,0 +1,20 @@
+[
+  {
+    "image": "Raku001.jpg",
+    "thumbnail": "ThumbRaku001.jpg",
+    "shortDescription": "Raku item 1",
+    "newRow": true
+  },
+  {
+    "image": "Raku002.jpg",
+    "thumbnail": "ThumbRaku002.jpg",
+    "shortDescription": "Raku item 2",
+    "newRow": false
+  },
+  {
+    "image": "Raku003.jpg",
+    "thumbnail": "ThumbRaku003.jpg",
+    "shortDescription": "Raku item 3",
+    "newRow": true
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "image": "Vases001.jpg",
+    "thumbnail": "ThumbVases001.jpg",
+    "shortDescription": "Vase 1",
+    "newRow": true
+  },
+  {
+    "image": "Vases002.jpg",
+    "thumbnail": "ThumbVases002.jpg",
+    "shortDescription": "Vase 2",
+    "newRow": true
+  },
+  {
+    "image": "Vases003.jpg",
+    "thumbnail": "ThumbVases003.jpg",
+    "shortDescription": "Vase 3",
+    "newRow": false
+  },
+  {
+    "image": "Vases004.jpg",
+    "thumbnail": "ThumbVases004.jpg",
+    "shortDescription": "Vase 4",
+    "newRow": true
+  },
+  {
+    "image": "Vases005.jpg",
+    "thumbnail": "ThumbVases005.jpg",
+    "shortDescription": "Vase 5",
+    "newRow": true
+  }
+]

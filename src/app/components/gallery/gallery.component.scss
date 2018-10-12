@@ -1,0 +1,34 @@
+.gallery {
+  font-family: "Permanent Marker", cursive;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .gallery-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  li a {
+    color: #6495ED;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  li img {
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+}

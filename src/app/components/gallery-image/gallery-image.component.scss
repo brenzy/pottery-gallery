@@ -1,0 +1,17 @@
+.gallery-image {
+  font-family: "Permanent Marker", cursive;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  img {
+    max-width: 100%;
+  }
+}
+
+.gallery-menu {
+  a.gallery-name {
+    text-decoration: none;
+    color: black;
+  }
+}

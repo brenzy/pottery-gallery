@@ -1,0 +1,66 @@
+[
+  {
+    "name": "newWork",
+    "directory": "assets/images/newWork",
+    "thumbnail": "NewWorkThumbnail.jpg",
+    "description": "New Work",
+    "details": "My latest work is available at the next Pine Tree Potters Show and Sale, April 28 to May 1, 2016 at the Aurora Cultural Center.  Please see <a href='http://www.pinetreepotters.ca/sales.html' target='_blank'> http://www.pinetreepotters.ca/sales.html</a> for more details",
+    "newRow": false
+  },
+  {
+    "name": "mugs",
+    "directory": "assets/images/mugs",
+    "thumbnail": "GalleryThumbnail.jpg",
+    "description": "Mugs & Spoon Vases",
+    "newRow": true
+  },
+  {
+    "name": "smallPlates",
+    "directory": "assets/images/smallPlates",
+    "thumbnail": "SmallPlatesThumb.jpg",
+    "description": "Small Dishes",
+    "newRow": true
+  },
+  {
+    "name": "vases",
+    "directory": "assets/images/vases",
+    "thumbnail": "ThumbVases001.jpg",
+    "description": "Vases",
+    "newRow": true
+  },
+  {
+    "name": "bowls",
+    "directory": "assets/images/bowls",
+    "thumbnail": "ThumbBowls001.jpg",
+    "description": "Bowls",
+    "newRow": false
+  },
+  {
+    "name": "plates",
+    "directory": "assets/images/plates",
+    "thumbnail": "ThumbPlate001.jpg",
+    "description": "Plates",
+    "newRow": true
+  },
+  {
+    "name": "raku",
+    "directory": "assets/images/raku",
+    "thumbnail": "ThumbRaku001.jpg",
+    "description": "Raku",
+    "newRow": false
+  },
+  {
+    "name": "sculptural",
+    "directory": "assets/images/sculptural",
+    "thumbnail": "ThumbSculptural001.jpg",
+    "description": "Sculptural Vessels",
+    "newRow": false
+  },
+  {
+    "name": "smallBowls",
+    "directory": "assets/images/smallBowls",
+    "thumbnail": "ThumbSmallBowls.jpg",
+    "description": "Small Bowls",
+    "newRow": false
+  }
+]

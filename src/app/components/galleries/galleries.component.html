@@ -1,0 +1,19 @@
+<div class="galleries">
+  <gallery-menu
+    [previous]="previousGallery"
+    [next]="nextGallery">
+  </gallery-menu>
+  <div class="galleries-content">
+    <ul class="galleries">
+      <ng-container *ngFor="let gallery of galleries$ | async">
+        <li>
+          <a [routerLink]="'/'+gallery.name">
+            <img class="galleries-thumbnail" alt="{{gallery.description}}" [src]="gallery.directory + '/' + gallery.thumbnail" />
+            <div>{{gallery.description}}</div>
+          </a>
+        </li>
+        <br *ngIf="gallery.newRow" />
+      </ng-container>
+    </ul>
+  </div>
+</div>

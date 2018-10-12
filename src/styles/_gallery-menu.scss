@@ -1,0 +1,59 @@
+@import "~src/styles/variables";
+
+.gallery-menu {
+  text-align: center;
+  font-size: 15px;
+  .gallery-name {
+    display: inline-block;
+  }
+  a.portfolio-name,
+  a.chevron {
+    text-decoration: none;
+    color: $navigation-color;
+  }
+  .chevron-prev {
+    margin-right: 5px;
+  }
+  .chevron-next {
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .gallery-menu {
+    font-size: 20px;
+    .chevron-prev {
+      margin-right: 10px;
+    }
+    .chevron-next {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .gallery-menu {
+    font-size: 30px;
+    .chevron-prev {
+      margin-right: 20px;
+    }
+    .chevron-next {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .gallery-menu {
+    font-size: 30px;
+    .chevron-prev {
+      margin-right: 20px;
+    }
+    .chevron-next {
+      margin-left: 20px;
+    }
+  }
+}
+
+
+

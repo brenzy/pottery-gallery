@@ -1,0 +1,32 @@
+[
+  {
+    "image": "Plate001.jpg",
+    "thumbnail": "ThumbPlate001.jpg",
+    "shortDescription": "Plate 001",
+    "newRow": true
+  },
+  {
+    "image": "Plate002.jpg",
+    "thumbnail": "ThumbPlate002.jpg",
+    "shortDescription": "Plate 002",
+    "newRow": false
+  },
+  {
+    "image": "Plate003.jpg",
+    "thumbnail": "ThumbPlate003.jpg",
+    "shortDescription": "Plate 003",
+    "newRow": true
+  },
+  {
+    "image": "Plate004.jpg",
+    "thumbnail": "ThumbPlate004.jpg",
+    "shortDescription": "Plate 004",
+    "newRow": true
+  },
+  {
+    "image": "Plate005.jpg",
+    "thumbnail": "ThumbPlate005.jpg",
+    "shortDescription": "Plate 005",
+    "newRow": false
+  }
+]

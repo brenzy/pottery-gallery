@@ -1,0 +1,32 @@
+[
+  {
+    "image": "Sculptural001.jpg",
+    "thumbnail": "ThumbSculptural001.jpg",
+    "shortDescription": "Sculptural Vessel 001",
+    "newRow": true
+  },
+  {
+    "image": "Sculptural002.jpg",
+    "thumbnail": "ThumbSculptural002.jpg",
+    "shortDescription": "Sculptural Vessel 002",
+    "newRow": false
+  },
+  {
+    "image": "Sculptural003.jpg",
+    "thumbnail": "ThumbSculptural003.jpg",
+    "shortDescription": "Sculptural Vessel 003",
+    "newRow": true
+  },
+  {
+    "image": "Sculptural004.jpg",
+    "thumbnail": "ThumbSculptural004.jpg",
+    "shortDescription": "Sculptural Vessel 004",
+    "newRow": true
+  },
+  {
+    "image": "Sculptural005.jpg",
+    "thumbnail": "ThumbSculptural005.jpg",
+    "shortDescription": "Sculptural Vessel 005",
+    "newRow": true
+  }
+]

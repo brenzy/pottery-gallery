@@ -1,0 +1,32 @@
+@import "~src/styles/variables";
+
+.galleries {
+  font-family: "Permanent Marker", cursive;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    a {
+      color: $navigation-color;
+      text-decoration: none;
+      font-family: "Permanent Marker", cursive;
+      font-size: 18px;
+    }
+    img {
+      margin: 0;
+      margin-left: 15px;
+      margin-right: 15px;
+      max-width: calc(100% - 30px);
+    }
+  }
+}
+
+.galleries-content {
+  text-align: center;
+}
